@@ -11,3 +11,11 @@ You cannot
 - change immutable resources
 - manage resources not defined in your terraform file
 
+Providers
+- are code that allow terraform to communicate to manage resources on --> AWS, GCP, Azure, Kubernetes, etc
+
+Key Terraform Commands
+Init - get the providers I need
+Plan - what am i about to do?
+Apply - do what is in the .tf files
+Destroy - remove everything defined in the .tf files
